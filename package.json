@@ -10,12 +10,15 @@
     "lintfix": "stylelint '**/*.css' --fix",
     "checkAll": "npm run check && npm run lint",
     "fixAll": "npm run format && npm run lintfix",
-    "serve": "npx serve"
+    "serve": "serve"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "prettier": "^2.8.0",
     "stylelint": "^14.15.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
   }
 }
