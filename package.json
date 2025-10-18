@@ -9,7 +9,8 @@
     "lint": "stylelint '**/*.css'",
     "lintfix": "stylelint '**/*.css' --fix",
     "checkAll": "npm run check && npm run lint",
-    "fixAll": "npm run format && npm run lintfix"
+    "fixAll": "npm run format && npm run lintfix",
+    "serve": "npx serve"
   },
   "author": "",
   "license": "ISC",
