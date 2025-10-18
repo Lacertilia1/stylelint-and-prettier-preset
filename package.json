@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'Привет!'",
     "check": "prettier --check './**/*.{html,css,js}'",
     "format": "prettier --write './**/*.{html,css,js}'",
     "lint": "stylelint '**/*.css'",
